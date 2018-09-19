@@ -15,7 +15,7 @@ $(document).ready(function () {
         search: function (userInput) {
             userInput = userInput.trim().toLowerCase();
             userInput = userInput.replace(' ', '+');
-            let queryUrl = `https//api.giphy.com/v1/gifs/search?q=${userInput}&api_key=${giphy.apiKey}&limit=10`;
+            let queryUrl = `https://api.giphy.com/v1/gifs/search?q=${userInput}&api_key=${giphy.apiKey}&limit=10`;
             console.log(userInput);
 
             // Creating an AJAX call for the specific gif button being clicked
