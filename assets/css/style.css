@@ -19,10 +19,13 @@ h1{
 }
 #buttons-view {
     text-align: center;
+   
 }
 #gif-form {
     text-align: center;
+   
 }
+
 body {
     background-image: radial-gradient(#fff, #ccc, #777);
     min-height: 100vh;
@@ -34,6 +37,7 @@ p {
     text-align: center;
     font-size: 16px;
     font-family: monospace;
+    color: whitesmoke;
 }
 img {
     width: 220px;
@@ -44,12 +48,20 @@ form {
     margin-top: 20px;
 }
 .gif-btn {
-    margin-right: 10px;
+    margin-right: 3px;
+    color: whitesmoke;
+    margin-top: 3px;
 }
 #add-gif {
     margin-left: 15px;
     background-color: #777;
+    
 }
 button {
     background-color: #777;
+    margin: 20px;
+}
+.gifDiv {
+    margin: 10px;
+    background: rgb(0,0,0,0.4);
 }
